@@ -1,0 +1,444 @@
+/* Pallette de couleurs 
+    couleurs principales*/
+@font-face {
+    font-family: "Calygraphy";
+    src: url(../fonts.css/Gabrielle.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "QuinchoScript";
+    src: url(../fonts.css/QuinchoScript_PersonalUse.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SimpleThread";
+    src: url(../fonts.css/QuinchoScript_PersonalUse.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PlaywriteHR";
+    src: url(../fonts.css/lucida\ calligraphy\ italic.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+.PlaywriteHR {
+    font-family: "PlaywriteHR";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    color: #aa3322;
+    text-shadow: 1.3px 3px 4.3px black;
+}
+
+
+
+.Quincho {
+    font-family: "QuinchoScript";
+    font-weight: bold;
+    font-size: 40px;
+    font-style: normal;
+
+}
+
+.SimpleThread {
+    font-family: "SimpleThread";
+    font-weight: bold;
+    font-size: 40px;
+    font-style: normal;
+
+}
+
+.Gabrielle {
+    font-family: "Calygraphy";
+    font-size: 50px;
+    color: #721717;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 1 0.3 red;
+
+
+}
+
+Rouge1 {
+    color: #aa3322;
+}
+
+Rouge2 {
+    color: #721717;
+}
+
+/* niveaux de gris */
+
+Noir {
+    color: #000;
+}
+
+Blanc {
+    color: #fff;
+}
+
+Gris-3 {
+    color: #ededed;
+}
+
+Gris-1 {
+    color: #cccccc;
+}
+
+Gris-2 {
+    color: #aaaaaa;
+}
+
+body {
+    width: 960px;
+    margin: auto;
+    height: 1000px;
+    font-family: Arial, Helvetica, "Liberation Sans", FreeSans, sans-serif;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(75, 99, 117);
+    background-color: #fff;
+}
+
+.nav1,
+.nav2,
+.nav3,
+.nav4 {
+    color: #aaaaaa;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+#menu {
+    text-align: justify;
+    font-size: 15px;
+    width: 900px;
+    margin: auto;
+    height: 46px;
+    margin: auto;
+    color: #cccccc;
+    background-color: #aa3322;
+}
+
+
+.nav1 {
+    display: inline-block;
+    width: 252px;
+    height: 30px;
+    text-align: right;
+    padding: 2px 17px;
+    color: #cccccc;
+    background-color: #aa3322;
+}
+
+.nav2 {
+    display: inline-block;
+    position: relative;
+    height: 25px;
+    width: 69px;
+    padding: 13px 25px 8px 10px;
+    color: #cccccc;
+    background-color: #aa3322;
+    text-align: center;
+    border-right: 1.5px dashed white;
+    border-left: 1.5px dashed white;
+}
+
+.nav3 {
+    display: inline-block;
+    height: 30px;
+    width: 134px;
+    font-size: 14px;
+    padding: 0px;
+    color: #cccccc;
+    background-color: #aa3322;
+    text-align: center;
+
+}
+
+.nav4 {
+    position: inline-block;
+    left: 749px;
+    display: inline-flex;
+    width: 110px;
+    height: 25px;
+    padding: 8px;
+    text-align: center;
+    color: #cccccc;
+    background-color: #aa3322;
+    border-left: 1.5px dashed white;
+    border-right: 1.5px dashed white;
+
+}
+
+.nav1:hover,
+.nav2:hover,
+.nav3:hover,
+.nav4:hover {
+    color: white;
+    font-weight: 500;
+}
+
+.banner img {
+    margin: auto;
+    max-width: 900px;
+}
+
+
+div#main {
+    text-align: center;
+    margin-top: 3px;
+    /* top: 300; */
+}
+
+#main {
+    display: inline-block;
+    position: absolute;
+    top: 311px;
+    margin: 0 40px;
+    color: #000;
+}
+
+#main h2 {
+    padding: 5px 40px;
+    font-style: italic;
+}
+
+#content-box {
+    display: flex;
+    width: 900px;
+    gap: 5px;
+    padding: 0px;
+    color: black;
+    height: 500px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#en-savoirPlus {
+    color: red;
+    position: absolute;
+    left: 20px;
+    font: size 11px;
+    top: auto;
+    border-bottom: 1px solid red;
+}
+
+.coupsDeCoeur {
+    display: inline-block;
+    width: 900px;
+    padding: 23px;
+    margin-top: 133px;
+    height: 1000px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#lesClassiques {
+    display: flex;
+    margin: 35px;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#lesRomans {
+    display: flex;
+    margin: 28px;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.box {
+    width: -webkit-fill-available;
+    display: inline-block;
+    position: relative;
+    color: #000;
+    background-color: #ededed;
+    padding-left: 13px;
+    margin: 4px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+
+.romans {
+    padding-left: 15px;
+    width: 263px;
+    height: 200px;
+}
+
+.box h5 {
+    text-align: left;
+}
+
+.jours-semaine {
+    position: relative;
+    right: 40px;
+    line-height: 0.1;
+    bottom: -5px;
+    height: auto;
+    text-align: left;
+}
+
+.ul {
+    padding: 4px;
+    line-height: 0;
+}
+
+
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+    color: rgb(75, 99, 117);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    padding-top: 50px;
+    font-weight: 600;
+    margin-left: 40%;
+    font-style: italic;
+    color: #000;
+}
+
+
+
+#intro {
+    width: 900px;
+    margin-left: -23px;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.intro2 {
+    margin: 2px 0;
+    height: 100px;
+    margin-left: 1px;
+    padding: 8px;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.intro2 p {
+    position: absolute;
+    margin-top: 17px;
+    left: 20px;
+}
+
+.intro2 h3 {
+    position: relative;
+    left: -358px;
+    top: 13px;
+}
+
+.intro2>h4 {
+    position: absolute;
+    bottom: 18px;
+    left: 20px;
+}
+
+#intro h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 34px;
+    font-style: italic;
+    font-weight: 500;
+    color: #000;
+}
+
+#intro p {
+    position: relative;
+    top: -6px;
+    text-align: left;
+    margin-left: 38px;
+    padding-left: 0px;
+    font-size: 13px;
+}
+
+#boxCitation {
+    display: inline-block;
+    position: relative;
+    width: 428px;
+    font-style: italic;
+    font-weight: 500;
+    margin-right: 322px;
+    height: auto;
+    border: 1px dashed red;
+    background-color: #ededed;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+#en-savoirPlus1 {
+    color: red;
+    position: absolute;
+    bottom: 11px;
+    left: 25px;
+    font-size: small;
+    border-bottom: 1px solid red;
+}
+
+a#en-savoirPlus2 {
+    position: relative;
+    right: 362px;
+    bottom: 79px;
+    color: red;
+    font-size: small;
+    border-bottom: 1px solid red;
+}
+
+.lesClassiques {
+    display: flex;
+    justify-content: space-between;
+}
+
+div#horaires {
+    margin: 58px 11px;
+}
+
+footer {
+    width: 880px;
+    margin: auto;
+    bottom: -280px;
+    position: absolute;
+    margin-left: 11px;
+    background-color: #aaaaaa;
+}
+
+.copyright {
+    position: relative;
+    margin-left: 20px;
+    top: 28px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #721717;
+}
+
+address {
+    text-align: end;
+    color: #721717;
+    font-size: 1em;
+    font-weight: bold;
+    padding-right: 30px;
+    padding-bottom: 31px;
+}
