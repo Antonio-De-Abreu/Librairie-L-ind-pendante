@@ -121,6 +121,20 @@ body {
 
 }
 
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+    color: rgb(75, 99, 117);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
 #menu {
     text-align: justify;
     font-size: 15px;
@@ -244,6 +258,7 @@ div#main {
     height: 1000px;
     font-size: 15px;
     border-radius: 10px;
+    border: 1px solid #721717;
 }
 
 #lesClassiques {
@@ -252,6 +267,12 @@ div#main {
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: nowrap;
+}
+
+.lesClassiques h3 {
+    position: relative;
+    padding: 4px;
+    top: -96px;
 }
 
 #lesRomans {
@@ -416,12 +437,13 @@ div#horaires {
     margin: 58px 11px;
 }
 
-footer {
+
+
+.footer {
+    height: auto;
+    position: absolute;
     width: 880px;
     margin: auto;
-    bottom: -280px;
-    position: absolute;
-    margin-left: 11px;
     background-color: #aaaaaa;
 }
 
