@@ -15,13 +15,6 @@
 }
 
 @font-face {
-    font-family: "SimpleThread";
-    src: url(../fonts.css/QuinchoScript_PersonalUse.ttf);
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
     font-family: "PlaywriteHR";
     src: url(../fonts.css/lucida\ calligraphy\ italic.ttf);
     font-weight: bold;
@@ -56,17 +49,7 @@
 
 }
 
-.Gabrielle {
-    font-family: "Calygraphy";
-    font-size: 50px;
-    color: #721717;
-    font-style: normal;
-    text-align: center;
-    font-weight: bold;
-    text-shadow: #000 1 0.3 red;
 
-
-}
 
 Rouge1 {
     color: #aa3322;
